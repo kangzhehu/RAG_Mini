@@ -87,7 +87,8 @@ source venv/bin/activate
 
 **3. Install the required packages:**
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 **4. Configure the system:**
 Review the `configs/config.yaml` file. You can change the models, chunk sizes, and other parameters here. The default settings are a good starting point.
