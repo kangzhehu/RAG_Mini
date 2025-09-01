@@ -1,0 +1,8 @@
+pyyaml
+pypdf2
+sentence-transformers
+faiss-cpu
+rank_bm25
+transformers
+torch
+gradio

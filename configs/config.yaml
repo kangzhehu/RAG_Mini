@@ -1,0 +1,26 @@
+# 路径配置
+storage_path: "./storage"
+vector_store:
+  index_path: "./storage/faiss_index/index.faiss"
+  metadata_path: "./storage/faiss_index/chunks.pkl"
+
+# 切分器配置
+splitter:
+  parent_chunk_size: 800
+  parent_chunk_overlap: 100
+  child_chunk_size: 250
+
+# 模型配置
+models:
+  embedding: "moka-ai/m3e-base"
+  reranker: "BAAI/bge-reranker-base"
+  llm_generator: "Qwen/Qwen3-0.6B" # Qwen/Qwen1.5-1.8B-Chat or Qwen/Qwen3-0.6B
+
+
+# 检索与生成参数
+retrieval:
+  hybrid_search_alpha: 0.5 # 混合检索中向量权(0-1), 关键词权为1-alpha
+  retrieval_top_k: 20
+  rerank_top_k: 5
+generation:
+  max_new_tokens: 512
