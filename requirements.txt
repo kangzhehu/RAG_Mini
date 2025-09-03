@@ -4,6 +4,7 @@ PyMuPDF
 sentence-transformers
 faiss-cpu
 rank_bm25
+accelerate
 transformers
 torch
 gradio
