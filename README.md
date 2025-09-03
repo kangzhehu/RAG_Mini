@@ -6,6 +6,7 @@
 This is a powerful, enterprise-grade Retrieval-Augmented Generation (RAG) system designed to transform your documents into an interactive and intelligent knowledge base. Users can upload their own documents (PDFs, TXT files), build a searchable vector index, and ask complex questions in natural language to receive accurate, context-aware answers sourced directly from the provided materials.
 
 The entire application is wrapped in a clean, user-friendly web interface powered by Gradio.
+Live demo is now available on HugHub Face – click [here](https://huggingface.co/spaces/TuNan52/Mini-RAG) to try it out. (Running on CPU, so initial loading and response times may be slower.)
 
 ![App Screenshot](assets/1.png)
 ![App Screenshot](assets/2.png)
