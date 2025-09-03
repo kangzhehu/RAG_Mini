@@ -1,5 +1,6 @@
 pyyaml
 pypdf2
+PyMuPDF
 sentence-transformers
 faiss-cpu
 rank_bm25
